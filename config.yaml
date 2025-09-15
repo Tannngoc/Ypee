@@ -1,0 +1,40 @@
+project:
+  name: "Shopee Affiliate Automation"
+  version: "1.0.0"
+  author: "Your Name"
+
+shopee:
+  keywords: ["tai nghe bluetooth", "áo thun nam"]
+  max_products: 50
+  region: "VN"
+  retries: 3
+  timeout: 10
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ShopeeBot/1.0"
+
+database:
+  type: sqlite
+  path: "database/shopee.db"
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  images: "data/images/"
+  reports: "reports/"
+  videos: "videos/output/"
+  assets: "videos/assets/"
+
+video:
+  duration: 20
+  font: "Arial-Bold"
+  font_size: 36
+  font_color: "white"
+  bg_music: "videos/assets/background.mp3"
+  resolution: [1080, 1920] # dọc cho TikTok/Youtube Shorts
+
+logging:
+  level: "INFO"
+  log_file: "logs/app.log"
+
+app:
+  dashboard_host: "localhost"
+  dashboard_port: 8501
