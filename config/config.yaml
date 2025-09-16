@@ -1,0 +1,8 @@
+project:
+  name: "Shopee Affiliate Automation"
+  version: "1.0.0"
+  author: "Tannngoc"
+
+database:
+  type: sqlite
+  path: "database/shopee.db"
