@@ -1,8 +1,16 @@
 project:
-  name: "Shopee Affiliate Automation"
+  name: "Amazone Affiliate Automation"
   version: "1.0.0"
   author: "Tannngoc"
 
+app:
+  name: Ypee
+  version: 1.0.0
+
 database:
   type: sqlite
-  path: "database/shopee.db"
+  path: "app/database/Ypee.db"
+
+services:
+  video_resolution: "1080P"
+  video_duration: 60
